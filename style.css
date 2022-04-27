@@ -52,7 +52,7 @@ a {
     color: white; 
 }
 a:hover {
-    color: #350373;
+    color: #18047D;
 }
 
 main {
@@ -99,11 +99,13 @@ main {
     border: 1px solid rgba(0, 0, 0, 0.24);
     border-radius: 15px;
 }
+.preço:hover {
+    color: #04307D;
+}
 
 footer {
     padding: 50px;
     height: 25px;
     text-align: center;
     color: rgba(0, 0, 0, 0.199);
-    
 }
