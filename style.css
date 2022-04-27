@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+/* font-family: 'Nunito', sans-serif; */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --cor1: #020C66;
+    --cor2: #350373;
+    --cor3: #034973;
+    --cornav: #04307D;
+    --cornav2: #18047D;
+}
+
+.info {
+    color: white;
+    background-color: #020C66;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 100px;
+}
+
+.nav1 {
+    color: white;
+    font-weight: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #034973;
+    align-items: center;
+    padding: 20px;
+}
+.nav1 > h1 {
+    font-size: 2em;
+    padding-left: 146px;
+}
+
+.nav2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 120px;
+}
+.nav2 > li {
+    padding: 0px 30px;
+}
+a {
+    color: white; 
+}
+a:hover {
+    color: #350373;
+}
+
+main {
+   width: 1000px;
+   margin: auto;
+}
+.titulo {
+    font-size: 2em;
+    margin: 25px 0px;
+    color: #04307d86;
+    padding: 5px;
+    border-radius: 15px;
+}
+.principal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+} 
+.materia {
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 4em;
+    text-align: center;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.materia > p {
+    font-size: 4em;
+}
+
+.assinaturas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.assinaturas > h1 p {
+    font-size: 2em;
+
+}
+.preço > h1 p {
+    font-size: 2em;
+}
+
+footer {
+    padding: 50px;
+    height: 25px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.199);
+    
+}
