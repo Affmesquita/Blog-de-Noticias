@@ -8,7 +8,6 @@
     text-decoration: none;
     list-style: none;
 }
-
 :root {
     --cor1: #020C66;
     --cor2: #350373;
@@ -102,6 +101,8 @@ main {
 .preço:hover {
     color: #04307D;
 }
+
+
 
 footer {
     padding: 50px;
