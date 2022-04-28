@@ -23,7 +23,6 @@
     justify-content: space-around;
     padding: 10px 100px;
 }
-
 .nav1 {
     color: white;
     font-weight: 4em;
@@ -38,7 +37,6 @@
     font-size: 2em;
     padding-left: 146px;
 }
-
 .nav2 {
     display: flex;
     flex-wrap: wrap;
@@ -54,9 +52,11 @@ a:hover {
     color: #18047D;
 }
 
+/* CONTEUDO*/
+
 main {
    width: 1000px;
-   margin: auto;
+   margin: auto; 
 }
 .titulo {
     font-size: 2em;
@@ -68,7 +68,6 @@ main {
 .principal {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
     margin-bottom: 80px;
 } 
@@ -78,10 +77,8 @@ main {
     flex-wrap: wrap;
     font-size: 2em;
     text-align: center;
-    margin: 10px;
     margin-bottom: 100px;
     justify-content: space-around;
-    align-items: flex-end;
 }
 
 .assinaturas {
